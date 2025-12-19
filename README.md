@@ -22,3 +22,10 @@ print("Multiplication :",mult)# it will print multiplication and value of multip
 print("Division: ",div)# it will print division and value of division
 
 #task 2
+fname = str(input("Enter your first name: "))#take first name as input
+
+lname= str(input("Enter you last name: "))#take last name as input
+
+catstr= fname +" "+lname# join two strings
+
+print("Hello,",catstr,"! Welcome to Python program")#prints the message
